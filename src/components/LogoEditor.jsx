@@ -356,17 +356,19 @@ function LogoEditor() {
       </div>
       <div className="w-fit relative h-full mx-auto my-[32px] bg-white">
         <ChromePicker
-        className="bg-white "
+          className="bg-white "
           color={colorCombination}
           onChange={(c) =>
             onColorChange("#" + rgbHex(c.rgb.r, c.rgb.g, c.rgb.b, c.rgb.a))
           }
         />
       </div>
-          <div className="w-[229px] mx-auto my-5 mb-[7.5rem] relative rounded-md bg-white box-border h-[2.81rem] overflow-hidden border-[0.3px] border-solid border-darkgray" />
+      <div className="w-[229px] mx-auto my-5 mb-[7.5rem] relative rounded-md bg-white box-border h-[2.81rem] overflow-hidden border-[0.3px] border-solid border-darkgray" />
 
       <div className="w-full flex flex-col mx-auto relative text-[0.88rem] text-black text-center  font-inter">
-        <span className="w-full text-center">Designed And Developed by Team NovaChain for</span>
+        <span className="w-full text-center">
+          Designed And Developed by Team NovaChain for
+        </span>
         <span className="font-semibold"> ETHMUMBAI</span>
       </div>
     </div>

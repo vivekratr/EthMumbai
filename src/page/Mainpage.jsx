@@ -29,7 +29,7 @@ const Mainpage = () => {
 
         {/* hero */}
         <section className=' relative overflow-hidden h-auto flex flex-col bg-[#FFE7BA]'>
-        <img className='w-[166px] mx-auto my-5 relative  overflow-hidden h-[3.94rem] object-cover' src={logo} alt="Logo" />
+        <img className='w-[166px] mx-auto lg:mx-1 my-5 relative  overflow-hidden h-[3.94rem] object-cover' src={logo} alt="Logo" />
         <img className='absolute w-[526px] overflow-hidden h-[471px] left-[-233px] top-[591px] object-cover' src="https://cdn.discordapp.com/attachments/1096324843877703713/1200511965106294885/image.png?ex=65c672e4&is=65b3fde4&hm=ff0949a0a27f3f6231cbe87f60bfce83ce9414ad73fb012999c3af7135b79516&" alt="" />
         <img className="absolute w-[515px]   overflow-hidden left-[169px] top-[597px] h-[32.19rem] object-contain" alt="" src="https://cdn.discordapp.com/attachments/1096324843877703713/1200511913596039188/image.png?ex=65c672d8&is=65b3fdd8&hm=7b8208cc5e5d3958fd8c3658700e69045c5f660880b09f36dd8a47f3671f7ad2&" />
 
