@@ -161,7 +161,7 @@ function LogoEditor() {
       <div className="flex py-0  flex-wrap gap-3  lg:min-w-[715px] max-w-[60%] h-max  mx-auto justify-center">
         <div
           id="bhai"
-          className="relative w-[363px]  lg:w-[650px] lg:h-[345px]  "
+          className="relative w-[363px] mb-[20px]  lg:w-[650px] lg:h-[345px]  "
           // style={{ width: "649px", height: "345px" }}
         >
           {/* svg1 */}
@@ -169,7 +169,7 @@ function LogoEditor() {
             className="w-[363px] lg:w-[650px] mx-auto"
             version="1.1"
             width="649"
-            height="345"
+            height="100%"
             viewBox="0 0 649 345"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

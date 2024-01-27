@@ -37,7 +37,10 @@ const Mid = () => {
       </div>
 
       <div className="w-[210px] mb-[88.6px] mx-auto mt-[106px] relative rounded-[40px] bg-white box-border h-[4.19rem] overflow-hidden text-left text-[1.13rem] text-black  font-[500] border-[0.3px] border-solid border-darkgray">
-        <div style={{fontWeight:700}} className="absolute top-[1.38rem] left-[2.75rem] font-inter font-300">
+        <div
+          style={{ fontWeight: 700 }}
+          className="absolute top-[1.38rem] left-[2.75rem] font-inter font-300"
+        >
           Register Now!
         </div>
       </div>
