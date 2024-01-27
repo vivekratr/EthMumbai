@@ -3,11 +3,14 @@ import logo from '../assets/logo.svg'
 import LogoEditor from '../components/LogoEditor'
 import './css/Mainpage.css'
 import Mid from '../components/Mid'
+import Footer from '../components/Footer'
 
 const Mainpage = () => {
     const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
     const horizontalImage1_1='https://cdn.discordapp.com/attachments/1096324843877703713/1200569472164044871/image.png?ex=65c6a873&is=65b43373&hm=bb5d702ecec4eb7aebfaa8935d741aac235c6a3b9b3334127ed40760904a50ae&'
     const horizontalImage1_2 ='https://cdn.discordapp.com/attachments/1096324843877703713/1200569332703432755/image.png?ex=65c6a852&is=65b43352&hm=7ed8dfb7413164cceec73c72b201def54e48ae50d1c745526cb0e3cf67895668&'
+    const horizontalImage2_1='https://cdn.discordapp.com/attachments/1096324843877703713/1200607126922473563/image.png?ex=65c6cb85&is=65b45685&hm=00181d6f576452d9f94b36dc4dc3f373aa3bd8c1f2b249b4d710bb62075a7aee&'
+    const horizontalImage2_2='https://cdn.discordapp.com/attachments/1096324843877703713/1200609698584469564/image.png?ex=65c6cdea&is=65b458ea&hm=a485c91d09401882086ba99c367d998d119726bacbe3da01583f9844bfc1792e&'
 
     React.useEffect(() => {
         const handleResize = () => {
@@ -48,7 +51,18 @@ const Mainpage = () => {
             {/* mid portion */}
             
             <Mid/>
-      
+
+      {/*moveImage2  */}
+      <div className='w-full overflow-x-hidden'>
+
+         <section className='relative w-[300%] lg:w-[225%] h-[71px] '>
+            <img
+            src={isLargeDevice ? horizontalImage2_2 : horizontalImage2_1} id='horizontalImage1' className='horizontalStrip1 absolute h-[71px]  object-cover '  alt="horizontalImg" />
+         </section>
+            </div>
+
+            {/* footer */}
+            <Footer/>
     </div>
   )
 }
