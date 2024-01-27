@@ -161,16 +161,16 @@ function LogoEditor() {
       <div className="flex py-0  flex-wrap gap-3  lg:min-w-[715px] max-w-[60%] h-max  mx-auto justify-center">
         <div
           id="bhai"
-          className="relative w-[363px] mb-[20px]  lg:w-[650px] lg:h-[345px]  "
+          className="relative lg:flex gap-3 w-[363px] mb-[20px]  lg:w-[815px]  "
           // style={{ width: "649px", height: "345px" }}
         >
           {/* svg1 */}
           <svg
-            className="w-[363px] lg:w-[650px] mx-auto"
+            className="w-[363px] lg:w-[510px] mx-auto"
             version="1.1"
-            width="649"
+            width="100%"
             height="100%"
-            viewBox="0 0 649 345"
+            viewBox="0 0 649 344"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -322,6 +322,15 @@ function LogoEditor() {
               </clipPath>
             </defs>
           </svg>
+          <div className="w-fit ml-5 hidden lg:flex relative h-full lg:h-max mx-auto my-[32px] lg:my-4 bg-white">
+        <ChromePicker
+          className="bg-white "
+          color={colorCombination}
+          onChange={(c) =>
+            onColorChange("#" + rgbHex(c.rgb.r, c.rgb.g, c.rgb.b, c.rgb.a))
+          }
+        />
+      </div>
         </div>
       </div>
 
@@ -349,12 +358,12 @@ function LogoEditor() {
           Mint on Zora
         </div>
       </div>
-      <div className="w-[363px] my-5 mx-auto relative rounded-sm bg-gray h-[3.5rem] overflow-hidden text-left text-[1rem] text-white font-inter">
+      <div className="w-[363px] my-5 lg:my-3 mx-auto relative rounded-sm bg-gray h-[3.5rem] overflow-hidden text-left text-[1rem] text-white font-inter">
         <div className="absolute top-[1.19rem] left-[8.31rem] font-medium">
           Share it on X
         </div>
       </div>
-      <div className="w-fit relative h-full mx-auto my-[32px] bg-white">
+      <div className="w-fit relative h-full lg:hidden lg:h-max mx-auto my-[32px] lg:my-4 bg-white">
         <ChromePicker
           className="bg-white "
           color={colorCombination}
@@ -363,7 +372,7 @@ function LogoEditor() {
           }
         />
       </div>
-      <div className="w-[229px] mx-auto my-5 mb-[7.5rem] relative rounded-md bg-white box-border h-[2.81rem] overflow-hidden border-[0.3px] border-solid border-darkgray" />
+      <div className="w-[229px] mx-auto my-5 mb-[7.5rem] lg:mb-4 lg:my-3 relative rounded-md bg-white box-border h-[2.81rem] overflow-hidden border-[0.3px] border-solid border-darkgray" />
 
       <div className="w-full flex flex-col mx-auto relative text-[0.88rem] text-black text-center  font-inter">
         <span className="w-full text-center">
