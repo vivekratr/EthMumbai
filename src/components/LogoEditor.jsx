@@ -349,7 +349,7 @@ function LogoEditor() {
           Mint on Zora
         </div>
       </div>
-      <div className="w-[363px] mx-auto relative rounded-sm bg-gray h-[3.5rem] overflow-hidden text-left text-[1rem] text-white font-inter">
+      <div className="w-[363px] my-5 mx-auto relative rounded-sm bg-gray h-[3.5rem] overflow-hidden text-left text-[1rem] text-white font-inter">
         <div className="absolute top-[1.19rem] left-[8.31rem] font-medium">
           Share it on X
         </div>
