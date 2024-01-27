@@ -14,7 +14,7 @@ const Mid = () => {
         alt=""
       />
       <img
-        className="w-full relative max-w-full overflow-hidden h-[13.88rem] object-contain opacity-[0.62]"
+        className="w-full absolute left-[190px] top-[70px] max-w-full overflow-hidden h-[13.88rem] object-contain opacity-[0.62]"
         alt=""
         src="https://cdn.discordapp.com/attachments/1096324843877703713/1200515577555460116/image.png?ex=65c67642&is=65b40142&hm=b59dc90c24fee1d47bc983559fe037e64490c161c30acf6f2a22a356705522a9&"
       />
