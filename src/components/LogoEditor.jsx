@@ -2,12 +2,12 @@
 
 import React, { useState } from "react";
 import { ChromePicker } from "react-color";
-import svgToMiniDataURI from "mini-svg-data-uri";
-import axios from "axios";
+// import svgToMiniDataURI from "mini-svg-data-uri";
+// import axios from "axios";
 import html2canvas from "html2canvas";
 import rgbHex from "rgb-hex";
 import ColorThief from "colorthief";
-import { TwitterShareButton,TwitterIcon, } from 'react-share';
+// import { TwitterShareButton,TwitterIcon, } from 'react-share';
 function LogoEditor() {
   const svgRef = React.useRef(null);
 
