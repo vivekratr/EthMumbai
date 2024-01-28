@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Mainpage from "./page/Mainpage";
+// import ColorExtract from  "./components/ColorExtract";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <div>
      
           <Routes>
-            <Route path="/" element={<Mainpage /*state = {state}*/ />} />
+          <Route path="/" element={<Mainpage /*state = {state}*/ />} />
             
           </Routes>
          
