@@ -799,7 +799,7 @@ xmlns="http://www.w3.org/2000/svg"
         </div>
       </div>
       <div
-        onClick={handleTwitterShare}
+        onClick={''}
         className="w-[363px] my-5 lg:my-3 mx-auto relative rounded-sm bg-gray h-[3.5rem] flex items-center justify-center overflow-hidden text-left text-[1rem] text-white font-inter"
       >
         <div className="flex items-center justify-center font-medium">
