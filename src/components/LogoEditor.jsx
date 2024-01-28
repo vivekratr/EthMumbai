@@ -176,7 +176,7 @@ function LogoEditor() {
     by @myself_eth_ and @vivekratr  
     For @ethmumbai
     Check it out !!!!
-    https://d-social.netlify.app/
+    https://ethmumbai.netlify.app/
     `);
     // const tweetImage = encodeURIComponent("URL_of_your_image.jpg"); // Replace with the URL of your image
 
